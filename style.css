@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Noto sans', sans-serif;
 }
 
@@ -34,7 +35,7 @@ body {
 
 .right-login{
     width: 50vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,13 +43,14 @@ body {
 
 .card-login{
     width: 60%;
+    height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
     background: #2f2841;
-    border-radius: 20px;
+    border-radius: 30px 30px 30px 30px;
     box-shadow: 0px 10px 40px #00000056;
 }
 
@@ -81,7 +83,6 @@ body {
     box-sizing: border-box;
 }
 
-
 .textfield > label {
     color: #f0ffffde;
     margin-bottom: 10px;
@@ -105,4 +106,10 @@ body {
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
+    opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1.0;
+  color: #fff;
 }
