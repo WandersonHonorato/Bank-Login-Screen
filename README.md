@@ -1,4 +1,4 @@
-# Bank-Login-Screen
+# Bank Login Screen
 Tela de login de um banco desenvolvido com HTML e CSS.
 <hr>
 Projeto funcionando: https://banklogin.vercel.app/
